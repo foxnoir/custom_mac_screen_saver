@@ -55,3 +55,14 @@ Using Homebrew:
 
 ```sh
 brew install ffmpeg
+```
+
+##### run scrip examples
+
+```sh
+python script.py input_video.mp4 33:02  # for 33 minutes and 2 seconds
+python script.py input_video.mp4 1:33:02  # for 1 hour, 33 minutes, and 2 seconds
+```
+
+
+
