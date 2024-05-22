@@ -10,7 +10,7 @@
 <br />
 <div align="center">
   <img src="images/logo.png" alt="Logo" width="80" height="80">
-  <h1 align="center">Custom Mac Screen Server</h1>
+  <h1 align="center">Custom Mac Screen Saver</h1>
   </div>
 
 <!-- PROJECT desc -->
