@@ -1,0 +1,16 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+
+# Output videos
+*.mp4
+*.mov
+
+# Temporary concatenation list
+concat_list.txt
