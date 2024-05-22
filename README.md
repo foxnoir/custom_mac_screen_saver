@@ -39,29 +39,13 @@ This script takes an input MP4 video, loops it to a specified duration, and conv
 - Python 3.x
 - `ffmpeg` and `ffprobe`
 
-### Installation
 
-#### Install ffmpeg
 
-##### Windows
-
-1. Download the FFmpeg executable from the [FFmpeg website](https://ffmpeg.org/download.html).
-2. Extract the ZIP file and move the `bin` folder to a location of your choice (e.g., `C:\ffmpeg`).
-3. Add the path to the `bin` folder to your system's PATH environment variable.
-
-##### macOS
-
-Using Homebrew:
+#### run scrip examples
 
 ```sh
-brew install ffmpeg
-```
-
-##### run scrip examples
-
-```sh
-python script.py input_video.mp4 33:02  # for 33 minutes and 2 seconds
-python script.py input_video.mp4 1:33:02  # for 1 hour, 33 minutes, and 2 seconds
+python3 script.py input_video.mp4 33:02  # for 33 minutes and 2 seconds
+python3 script.py input_video.mp4 1:33:02  # for 1 hour, 33 minutes, and 2 seconds
 ```
 
 
