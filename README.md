@@ -44,8 +44,8 @@ This script takes an input MP4 video, loops it to a specified duration, and conv
 #### run scrip examples
 
 ```sh
-python3 script.py input_video.mp4 33:02  # for 33 minutes and 2 seconds
-python3 script.py input_video.mp4 1:33:02  # for 1 hour, 33 minutes, and 2 seconds
+python3 loop_and_convert.py input_video.mp4 33:02  # for 33 minutes and 2 seconds
+python3 loop_and_convert.py input_video.mp4 1:33:02  # for 1 hour, 33 minutes, and 2 seconds
 ```
 
 
