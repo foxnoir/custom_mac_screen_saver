@@ -21,7 +21,7 @@ Here you will find instructions on how to save your own video as a screensaver o
 
 # preperation
 
-  1. go to /Library/Application\ Support/com.apple.idleassetsd/Customer/4KSDR240FPS
+  1. go to/Library/Application Support/com.apple.idleassetsd/Customer/4KSDR240FPS
   2. parallel open screen saver in systemsettings and download whatever video
   3. find an mp4 you want as your screensaver
 
