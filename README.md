@@ -37,7 +37,7 @@ This script takes an input MP4 video, loops it to a specified duration, and conv
 ### Requirements
 
 - Python 3.x
-- `ffmpeg` and `ffprobe`
+- `ffmpeg` and `fprobe`
 
 
 
