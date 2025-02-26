@@ -17,7 +17,7 @@
   <p align="left">
 Here you will find instructions on how to save your own video as a screensaver on your Mac under Sonoma and a Python script that converts an mp4 into a mov file and loops the video at a time of your choice.
 
-# preperation
+### preperation
 
 1. go to/Library/Application Support/com.apple.idleassetsd/Customer/4KSDR240FPS
 2. parallel open screen saver in systemsettings and download whatever video
@@ -26,7 +26,7 @@ Here you will find instructions on how to save your own video as a screensaver o
 Your own video must be EXACTLY the length of the downloaded video. The script here converts an mp4 into a mov video and lets it run in the loop for a very specific time.
 Follow the instructions below.
 
-## Video Loop and Convert Script
+### Video Loop and Convert Script
 
 This script takes an input MP4 video, loops it to a specified duration, and converts the final output to MOV format. The duration can be specified in the format of "hours:minutes:seconds" or "minutes:seconds".
 
