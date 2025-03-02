@@ -6,8 +6,6 @@
 [![X][x-shield]][x-url]
 [![Instagram][instagram-shield]][instagram-url]
 
-test test
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
