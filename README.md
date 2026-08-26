@@ -28,18 +28,22 @@ Follow the instructions below.
 
 ### Video Loop and Convert Script
 
-This script takes an input MP4 video, loops it to a specified duration, and converts the final output to MOV format. The duration can be specified in the format of "hours:minutes:seconds" or "minutes:seconds".
+This script takes an input MP4 video, loops it to a specified duration, and writes a single MOV file (`final_output.mov` by default). The duration can be specified as `hours:minutes:seconds` or `minutes:seconds`.
+
+It loops with ffmpeg in one pass and does not create giant temp copies. If a lossless stream copy would not fit on disk, it encodes HEVC instead.
 
 ### Requirements
 
 - Python 3.x
-- `ffmpeg` and `fprobe`
+- `ffmpeg` and `ffprobe`
 
-#### run scrip examples
+#### run script examples
 
 ```sh
-python3 loop_and_convert.py input_video.mp4 33:02  # for 33 minutes and 2 seconds
-python3 loop_and_convert.py input_video.mp4 1:33:02  # for 1 hour, 33 minutes, and 2 seconds
+python3 loop_and_convert.py input_video.mp4 33:02  # 33 minutes and 2 seconds
+python3 loop_and_convert.py input_video.mp4 1:33:02  # 1 hour, 33 minutes, and 2 seconds
+python3 loop_and_convert.py input_video.mp4 4:00:00  # 4 hours
+python3 loop_and_convert.py input_video.mp4 4:00:00 my_screensaver.mov  # custom output name
 ```
 
 [bloc]: https://img.shields.io/badge/Bloc-8B0000.svg?style=for-the-badge&logo=bloc&logoColor=white
